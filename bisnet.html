@@ -22,12 +22,14 @@
   <tr>
     <th>NS Record</th>
     <th>Value</th>
+    <th>Registrar</th>
 
   </tr>
     {% for entry in packed_entries.items() %}
       <tr>
           <td><h3><a href="{{entry[1]['value']}}">{{entry[0]}}</a></h3></td>
           <td>{{entry[1]['value']}}</td>
+          <td>{{entry[1]['address']}}</td>
       </tr>
 
     {% end %}
