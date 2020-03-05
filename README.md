@@ -1,6 +1,6 @@
-# Welcome to Bisnet
+# Welcome to bisnet
 
-To register your Bisnet entry, you need to send a transaction to the Bismuth network with the following properties:
+To register your **bisnet** entry, you need to send a transaction to the Bismuth network with the following properties:
 
 * **operation:** domain
 * **data:** name:value
@@ -14,6 +14,6 @@ By running **bisnet.py**, you can check for the current existing entries at [htt
 
 You need to adjust path to your ledger in _config.txt_ and your node must be running.
 
-There are currently no DNS services integrating Bisnet that we are aware of.
+There are currently no DNS services integrating **bisnet** that we are aware of.
 
 ![Thumbnail](thumb.png)
